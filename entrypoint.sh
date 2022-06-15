@@ -1,0 +1,1 @@
+gunicorn --worker-tmp-dif /dev/shm -k uvicorn.workers.UvicornWorker app.main:app
